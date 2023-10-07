@@ -18,7 +18,7 @@ export const Contacts = () => {
             <div className='contacts-section'>
                 <img className='contacts-logo' src="https://i.ibb.co/drhjLMc/gmail.png" />
                 <div className='contact-texts'>
-                    <p className='contact-label'>a.platania@itsrizzoli.it</p>
+                    <p className='contact-label'>alessandro2003.platania@gmail.com</p>
                     <p className='contact-label'>a.dimineo@itsrizzoli.it</p>
                     <p className='contact-label'>a.benmoussa@itsrizzoli.it</p>
                 </div>
