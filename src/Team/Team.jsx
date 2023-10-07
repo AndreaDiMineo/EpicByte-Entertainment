@@ -1,6 +1,6 @@
-import { Header } from '../Header/Header';
+import Header from '../Header/Header.jsx';
 
-export const Team = () => {
+const Team = () => {
     return(
         <>
             <Header />
@@ -8,3 +8,5 @@ export const Team = () => {
         </>
     )
 }
+
+export default Team

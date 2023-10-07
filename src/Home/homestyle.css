@@ -1,0 +1,66 @@
+img {
+    width: 119rem;
+    height: 60rem;
+  }
+  
+  .description {
+    position: relative;
+    background-color: #151f42;
+    top: -2.4rem;
+    height: 14rem;
+  }
+  
+  b {
+    color: #4e68d8;
+  }
+  
+  p {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+    bottom: -1.5rem;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 28px;
+  }
+  
+  picture {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  picture img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 8px;
+    margin: 1.5%;
+  }
+  
+  .titles {
+    position: relative;
+    top: -3rem;
+    margin-right: 22rem;
+  }
+  
+  .titles h4 {
+    margin: 50%;
+  }
+  
+  .images,
+  .titles {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  h1 {
+    color: white;
+    position: absolute;
+    font-size: 55px;
+    top: 25rem;
+    right: 43rem;
+  }
+  

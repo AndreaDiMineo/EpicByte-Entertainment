@@ -1,7 +1,6 @@
+import Header from '../Header/Header.jsx';
 
-import { Header } from '../Header/Header';
-
-export const Games = () => {
+const Games = () => {
     return(
         <>
             <Header />
@@ -9,3 +8,5 @@ export const Games = () => {
         </>
     )
 }
+
+export default Games

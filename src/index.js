@@ -2,9 +2,9 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import {Games} from './Games/Games';
-import {Contacts} from './Contacts/Contacts';
-import {Team} from './Team/Team';
+import Games from './Games/Games.jsx';
+import Contacts from './Contacts/Contacts.jsx';
+import Team from './Team/Team.jsx';
 import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 

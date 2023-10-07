@@ -1,6 +1,6 @@
-import { Header } from '../Header/Header';
+import Header from '../Header/Header.jsx';
 
-export const Contacts = () => {
+const Contacts = () => {
     return(
         <>
             <Header />
@@ -9,3 +9,5 @@ export const Contacts = () => {
     )
     
 }
+
+export default Contacts
