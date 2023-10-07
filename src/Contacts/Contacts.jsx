@@ -31,6 +31,14 @@ export const Contacts = () => {
                     <p className='contact-label'>linkedin.com/in/benmoussa-amine/</p>
                 </div>
             </div>
+            <div className='contacts-section'>
+                <img className='contacts-logo' src="https://i.ibb.co/ZfFbKq7/discord.png" />
+                <div className='contact-texts'>
+                    <p className='contact-label'>plata.exe</p>
+                    <p className='contact-label'>andrew900_</p>
+                    <p className='contact-label'>Amine-07#4049</p>
+                </div>
+            </div>
             <Footer />
         </>
     )
