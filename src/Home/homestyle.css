@@ -1,20 +1,21 @@
-img {
-    width: 119rem;
-    height: 60rem;
+.img-home {
+    width: 94.95rem;
+    height: 50rem;
   }
   
   .description {
     position: relative;
     background-color: #151f42;
     top: -2.4rem;
-    height: 14rem;
+    height: 18rem;
+    padding: 2rem;
   }
   
   b {
     color: #4e68d8;
   }
   
-  p {
+  .p-home {
     color: white;
     font-size: 35px;
     text-align: center;
@@ -22,7 +23,7 @@ img {
     bottom: -1.5rem;
   }
   
-  h2 {
+  .h2-home {
     text-align: center;
     font-size: 28px;
   }
@@ -33,7 +34,7 @@ img {
     align-items: center;
   }
   
-  picture img {
+  .game-images {
     width: 10rem;
     height: 10rem;
     border-radius: 8px;
@@ -56,11 +57,11 @@ img {
     flex-direction: row;
   }
   
-  h1 {
+  .home-title {
     color: white;
     position: absolute;
     font-size: 55px;
     top: 25rem;
-    right: 43rem;
+    right: 30rem;
   }
   
