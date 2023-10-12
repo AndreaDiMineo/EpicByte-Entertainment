@@ -4,7 +4,7 @@ import "./contactsstyle.css";
 
 const Contacts = () => {
   return (
-    <>
+    <div className="background-contacts">
       <Header />
       <h1 className="contact-us">CONTACT US!</h1>
       <div className="contacts-section">
@@ -56,7 +56,7 @@ const Contacts = () => {
         </div>
       </div>
       <Footer />
-    </>
+    </div>
   );
 };
 export default Contacts;
