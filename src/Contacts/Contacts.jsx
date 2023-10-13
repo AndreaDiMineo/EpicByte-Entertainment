@@ -84,6 +84,45 @@ const Contacts = () => {
             </div>
           </div>
         </div>
+
+        <div className="contacts-card">
+          <img
+            className="contacts-pfp"
+            src="https://i.ibb.co/wg4cXFn/photoamine-Photo-Room-png-Photo-Room.png"
+          />
+          <div className="contacts-list">
+            <div className="contacts-row">
+              <img
+                className="contacts-logo"
+                src="https://i.ibb.co/drhjLMc/gmail.png"
+              />
+              <p className="contacts-p">a.benmoussa@itsrizzoli.it</p>
+            </div>
+            <div className="contacts-row">
+              <img
+                className="contacts-logo"
+                src="https://i.ibb.co/Wn1cGyJ/phone-call.png"
+              />
+              <p className="contacts-p">+39 351 883 7087</p>
+            </div>
+            <div className="contacts-row">
+              <img
+                className="contacts-logo"
+                src="https://i.ibb.co/927zwdH/linkedin-Contact.png"
+              />
+              <p className="contacts-p">
+                https://www.linkedin.com/in/benmoussa-amine
+              </p>
+            </div>
+            <div className="contacts-row">
+              <img
+                className="contacts-logo"
+                src="https://i.ibb.co/ZfFbKq7/discord.png"
+              />
+              <p className="contacts-p">Amine1290</p>
+            </div>
+          </div>
+        </div>
       </div>
       <Footer />
     </div>
