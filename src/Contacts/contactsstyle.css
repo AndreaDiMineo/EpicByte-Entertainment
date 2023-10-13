@@ -1,46 +1,52 @@
-
-
-
 .contact-us {
-    color: #151f42;
-    font-size: 400%;
-    text-align: center;
-    margin-top: 5%;
-  }
+  color: #151f42;
+  font-size: 400%;
+  text-align: center;
+  margin-top: 5%;
+}
 
-  .contacts-card{
-    width: fit-content;
-    border-color: #151f42;
-    border-radius: 2%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 15%;
-    margin-right: 15%;
-    display: flex;
-    gap: 5%;
-    align-items: center;
-    border-style: groove;
-  }
-  
-  .contacts-pfp {
-    width: 30%;
-    border-radius: 5px;
-  }
+.contacts-card {
+  width: fit-content;
+  border-color: #151f42;
+  border-radius: 2%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  gap: 5%;
+  align-items: center;
+  border-style: groove;
+}
 
-  .contacts-logo{
-    width: 45px;
-    height: 45px;
-    border-radius: 90px;
-  }
+.contacts-pfp {
+  max-inline-size: 34%;
+  border-radius: 5rem;
+  padding-left: 1rem;
+  height: 200px;
+  width: 301px;
+}
 
-  .contacts-row {
-    display: flex;
-    align-items: center;
-    gap: 5%;
-  }
+.contacts-logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 90px;
+}
 
-  .contacts-p {
-    color: #151f42;
-    font-size: larger;
-    
-  }
+.contacts-row {
+  display: flex;
+  align-items: center;
+  gap: 5%;
+}
+
+.contacts-p {
+  color: #151f42;
+  font-size: larger;
+  width: 28rem;
+}
+
+.background-flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
