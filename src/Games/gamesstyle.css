@@ -1,57 +1,25 @@
 .games-title {
-    color: #151f42;
-    font-size: 400%;
-    text-align: center;
-    margin-top: 5%;
+  color: #151f42;
+  font-size: 400%;
+  text-align: center;
+  margin-top: 5%;
+}
+.Game-Conatiner {
+  display: flex;
+  justify-content: center;
 }
 
 .games-card {
-    display: flex;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 5%;
-    margin-bottom: 3%;
-    border-color:#151f42;
-    border-style: groove;
-    border-radius: 2%;
+  border-style: groove;
+  border-color: #151f42;
+  border-radius: 5px;
+  min-width: 40rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
-
 .games-side {
-    
-    margin-left: 15%;
-    
-}
-
-.games-game-title {
-    color: #151f42;
-    font-size: 300%;
-    margin-left: 45%;
-}
-
-.view {
-    margin-top: 35%;
-    padding: 15%;
-    width: 200%;
-    background-color: #151f42;
-    color: white;
-    border-radius: 8%;
-}
-
-.view:hover {
-    color: #151f42;
-    background-color: white;
-    border-color: #151f42;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.games-images {
-    border-radius: 5px;
-}
-
-.games-by {
-    color: #151f42;
-    margin-left: 45%;
-    width: 100%;
-    text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
