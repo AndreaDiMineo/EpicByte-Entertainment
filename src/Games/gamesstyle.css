@@ -1,25 +1,55 @@
 .games-title {
-  color: #151f42;
-  font-size: 400%;
-  text-align: center;
-  margin-top: 5%;
-}
-.Game-Conatiner {
-  display: flex;
-  justify-content: center;
-}
+    color: #151f42;
+    font-size: 400%;
+    text-align: center;
+    margin-top: 5%;
+  }
+  .Game-Conatiner {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+  }
+  
+  .games-card {
+    border-style: groove;
+    border-color: #151f42;
+    border-radius: 5px;
+    min-width: 40rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .games-side {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 7.5%;
+  }
 
-.games-card {
-  border-style: groove;
-  border-color: #151f42;
-  border-radius: 5px;
-  min-width: 40rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-.games-side {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-}
+  
+  .view-button {
+    background-color: #151f42;
+    color: white;
+    width: 7rem;
+    height: 2rem;
+  }
+
+  .view-button:hover {
+    background-color: white;
+    color: #151f42;
+    border-color: #151f42;
+    border-style: groove;
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  .made-by {
+    color: #151f42;
+    text-align: center;
+  }
+
+  .games-game-title {
+    color: #151f42;
+    font-size: 35px;
+    
+  }
